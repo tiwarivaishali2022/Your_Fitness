@@ -2,7 +2,6 @@ import React from "react";
 import "../CSS/about.css";
 import Image1 from "../../assets/gym.jpeg";
 import Image2 from "../../assets/img1.jpeg";
-// import Image3 from "../../assets/img2.jpeg";
 
 export default function About() {
   return (
