@@ -2,6 +2,8 @@ import React from "react";
 import "../CSS/about.css";
 import Image1 from "../../assets/gym.jpeg";
 import Image2 from "../../assets/img1.jpeg";
+import Imglogo1 from "../../assets/fitness1.png";
+
 
 export default function About() {
   return (
@@ -47,6 +49,9 @@ export default function About() {
       <h2 className="my-2">Highly Qualified Fitness Marketers</h2>
       <p className="my-2">We develop high-quality content designed for health and fitness companies. Gym studios, equipment manufacturers, and supplement companies choose us because we’re experts in the field. Our content is produced by a fitness marketing specialist with strong industry credentials…</p>
       <div className="my-2 list">
+      <div className="text-center ">
+        <img className=" " src={Imglogo1} alt="" />
+      </div>
         <ul>
           <li>15+ years of marketing experience in the health, fitness, and nutrition industries</li>
           <li>Chartered marketer with degree-level CIM Diploma in Marketing</li>

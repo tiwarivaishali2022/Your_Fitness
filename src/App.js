@@ -6,6 +6,9 @@ import Contact from "./component/Javascript/Contact";
 import Home from "./component/Javascript/Home";
 import Service from "./component/Javascript/Service";
 import Footer from "./component/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 function App() {
   return (
