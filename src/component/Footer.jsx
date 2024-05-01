@@ -1,107 +1,108 @@
 import React from "react";
 import "./CSS/style.css";
 import "./CSS/utils.css";
-import Logo from "../assets/fitnesslogo.png";
 
 export default function Footer() {
   return (
     <div>
-      <footer className="bg-light text-center text-lg-start">
-        <div className="container p-4">
-          <div className="me-5 d-none d-lg-block">
+      <footer className="bg-light text-center text-lg-start border-top border-bottom border-dark">
+        <div className="container p-4 bg-secondary-subtle">
+          <div className="me-5 d-none d-lg-block fw-bold text-danger">
             <span>Get connected with us on social networks:</span>
           </div>
-          <div className="d-flex justify-content-center mb-4 ">
-            <a href="#" className="text-reset me-4">
+          <div className="d-flex justify-content-end mb-4 ">
+            <a href="#" className="text-reset me-4" aria-label="Facebook">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="text-reset me-4">
+            <a href="#" className="text-reset me-4" aria-label="Twitter">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="text-reset me-4">
+            <a href="#" className="text-reset me-4" aria-label="Google">
               <i className="fab fa-google"></i>
             </a>
-            <a href="#" className="text-reset me-4">
+            <a href="#" className="text-reset me-4" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="text-reset me-4">
+            <a href="#" className="text-reset me-4" aria-label="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="text-reset me-4">
+            <a href="#" className="text-reset me-4" aria-label="LinkedIn">
               <i className="fab fa-github"></i>
             </a>
           </div>
 
           {/* Company information */}
           <section className="mb-4 text-center">
-            <a href="#" className="d-inline-block mb-3">
-              <img src={Logo} alt="Company Logo" className="img-fluid" style={{ maxWidth: '50px' }} />
-            </a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              non nulla malesuada lectus eleifend consequat at nec augue.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia curae;
-            </p>
+            <h1 className="text-danger fw-bold">GOLD'S GYM</h1>
+            <p>Take care of your body. It's the only place you have to live.</p>
           </section>
-         
-
           {/* Quick links */}
           <div className="row">
             <div className="col-md-3 mb-md-0 mb-3">
-              <h4>Products</h4>
+              <h4 className="fw-bold">Products</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#" className="text-dark">
-                    Angular
+                  <a href="/about" className="text-dark text-decoration-none">
+                    About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-dark">
-                    React
+                  <a href="/services" className="text-dark text-decoration-none">
+                    Services
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://react.dev/learn" className="text-dark text-decoration-none">
+                    React js
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-dark">
-                    Vue
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-dark">
-                    Laravel
+                  <a
+                    href="https://www.w3schools.com/nodejs/"
+                    className="text-dark text-decoration-none"
+                  >
+                    Node js
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
-              <h4>Useful links</h4>
+              <h4 className="fw-bold">Useful links</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#" className="text-dark">
-                    Pricing
+                  <a
+                    href="https://www.linkedin.com/in/vaishali-tiwari-93063a255/"
+                    className="text-dark text-decoration-none"
+                  >
+                    Linkdin
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-dark">
-                    Settings
+                  <a
+                    href="https://github.com/tiwarivaishali2022"
+                    className="text-dark text-decoration-none"
+                  >
+                    Github
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.google.com" className="text-dark text-decoration-none" >
+                    Google
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-dark">
-                    Orders
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-dark">
-                    Help
+                  <a href="https://www.youtube.com/" className="text-dark text-decoration-none">
+                    You Tube
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
-              <h4>Contact</h4>
+              <h4 className="fw-bold">Contact</h4>
               <ul className="list-unstyled">
                 <li>
                   <i className="fas fa-home me-3"></i> Uttar-Pradesh,India
@@ -119,11 +120,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div
-          className="text-center p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-        >
-          © 2021 Copyright:
+        <div className="text-center p-4 bg-secondary text-light ">
+          © 2024 Copyright:
           <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
             MDBootstrap.com
           </a>

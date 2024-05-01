@@ -51,17 +51,17 @@
     padding-right: 13px;
 }
 
-.text-blue {
+/* .text-blue {
     color: rgb(230, 71, 90);
-}
+} */
 
 .btn {
     padding: 4px 12px;
-    border: 2px solid white;
+    border: 2px solid rgb(246, 238, 238);
     border-radius: 12px;
     cursor: pointer;
-    color: white;
-    background-color: rgb(11, 61, 239);
+    color: rgb(252, 248, 248);
+    background-color: rgb(42, 74, 189);
 }
 
 .overflow-x-hidden {

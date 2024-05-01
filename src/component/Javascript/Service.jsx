@@ -9,21 +9,21 @@ import Imglogo from "../../assets/fitness.png";
 export default function Service() {
   return (
     <div className=" my-2 ">
-      <h1 className="my-2 text-center ">
+      <h2 className="my-2 text-center ">
         “Working with Exercise.com and their team has been an amazing experience
         and a dream come true in terms of accomplishing a vision! Their workout
         technology has helped us effectively engage our community, and I highly
         recommend Exercise.com to grow your business!”
-      </h1>
+      </h2>
       <div className="text-center ">
         <img className="image " src={Image3} alt="" />
       </div>
 
-      <h2 className="my-2 image">14 Ways to Make Money from Fitness</h2>
-      <h4 className="my-2">
+      <h3 className="my-2 image text-danger">14 Ways to Make Money from Fitness</h3>
+      <h5 className="my-2">
         Here’s a list of 14 ideas to make money from fitness, along with how
         Exercise.com can help:
-      </h4>
+      </h5>
       <div className="text-center my-2">
         <ol className="px-2">
           <li className="my-2">

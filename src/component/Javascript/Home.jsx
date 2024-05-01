@@ -27,7 +27,7 @@ export default function Home() {
             </section>
             <hr />
             <section className="section2">
-                <h1 className="text-center my-2">Pricing</h1>
+                <h1 className="text-center my-2 text-danger">Pricing</h1>
                 <p className="my-2">A pricing strategy is the approach you take to charging clients and members for your
                     services. It’s a fundamental element of a gym’s business model and therefore vital to get it right.
                     Learn fitness marketing at your own pace with our interactive video course. Get leads
@@ -42,7 +42,7 @@ export default function Home() {
                             <li>2 GB of storage</li>
                             <li>Email support</li>
                             <li>Help center access</li>
-                            <li><button className="btn">Signup Now</button></li>
+                            <li><button className="btn btn-danger">Sign Up Now</button></li>
                         </ul>
                     </div>
                     <div className="box">
@@ -53,7 +53,7 @@ export default function Home() {
                             <li>2 GB of storage</li>
                             <li>Email support</li>
                             <li>Help center access</li>
-                            <li><button className="btn">Signup Now</button></li>
+                            <li><button className="btn btn-danger">Sign up Now</button></li>
                         </ul>
                     </div>
                     <div className="box">
@@ -64,14 +64,14 @@ export default function Home() {
                             <li>2 GB of storage</li>
                             <li>Email support</li>
                             <li>Help center access</li>
-                            <li><button className="btn">Signup Now</button></li>
+                            <li><button className="btn btn-danger">Sign up Now</button></li>
                         </ul>
                     </div>
                 </div>
             </section>
             <hr />
             <section className="section3">
-                <h1 className="text-center my-2">Compare Plans</h1>
+                <h1 className="text-center my-2 text-danger">Compare Plans</h1>
                 <div className="container plantable">
                     <table className="table text-center">
                         <thead>
