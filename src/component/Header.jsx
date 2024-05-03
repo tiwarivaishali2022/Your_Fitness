@@ -24,6 +24,17 @@ export default function Header() {
           <div className="logo font-bold flex items-center">
             <a href="/" className="link-underline-light"  onClick={handleLinkClick('/fitness')}>Your Fitness Gym</a>
           </div>
+          <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
           <ul className="navbar flex items-center">
             <li>
               <a href="/" className="link-underline-light">Home</a>

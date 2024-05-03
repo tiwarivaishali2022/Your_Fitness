@@ -19,7 +19,9 @@ export default function Service() {
         <img className="image " src={Image3} alt="" />
       </div>
 
-      <h3 className="my-2 image text-danger">14 Ways to Make Money from Fitness</h3>
+      <h3 className="my-2 image text-danger">
+        14 Ways to Make Money from Fitness
+      </h3>
       <h5 className="my-2">
         Here’s a list of 14 ideas to make money from fitness, along with how
         Exercise.com can help:
@@ -27,89 +29,89 @@ export default function Service() {
       <div className="text-center my-2">
         <ol className="px-2">
           <li className="my-2">
-            Personal Training Services: Offer one-on-one or group personal
-            training sessions customized to clients’ goals and needs.
-            Exercise.com’s personal training software helps you schedule
+            <strong>Personal Training Services: </strong>Offer one-on-one or
+            group personal training sessions customized to clients’ goals and
+            needs. Exercise.com’s personal training software helps you schedule
             sessions, track progress, and provide remote coaching.
           </li>
           <li className="my-2">
-            Online Fitness Coaching: Provide personalized fitness coaching
-            services through virtual platforms. Exercise.com’s custom branded
-            fitness apps allow you to sell personal training online and make
-            money selling workout plans online. You can deliver workouts, track
-            client progress, and communicate effectively.
+            <strong>Online Fitness Coaching:</strong> Provide personalized
+            fitness coaching services through virtual platforms. Exercise.com’s
+            custom branded fitness apps allow you to sell personal training
+            online and make money selling workout plans online. You can deliver
+            workouts, track client progress, and communicate effectively.
           </li>
           <li className=" my-2">
-            Group Fitness Classes: Conduct specialized fitness classes, such as
-            HIIT, yoga, or dance, either in-person or online. Exercise.com’s
-            scheduling features help you manage class registrations and optimize
-            attendance.
+            <strong>Group Fitness Classes:</strong> Conduct specialized fitness
+            classes, such as HIIT, yoga, or dance, either in-person or online.
+            Exercise.com’s scheduling features help you manage class
+            registrations and optimize attendance.
           </li>
           <li className="my-2">
-            Boot Camps: Organize boot camps targeting specific fitness goals,
-            such as weight loss or strength building. Exercise.com’s gym
-            management software assists in organizing and tracking boot camp
-            sessions.
+            <strong>Boot Camps:</strong> Organize boot camps targeting specific
+            fitness goals, such as weight loss or strength building.
+            Exercise.com’s gym management software assists in organizing and
+            tracking boot camp sessions.
           </li>
           <li className="my-2">
-            Fitness Challenges: Host fitness challenges to engage clients and
-            motivate them to reach their goals. Exercise.com’s platform enables
-            you to track challenge progress, communicate updates, and provide
-            leaderboard rankings.
+            <strong>Fitness Challenges:</strong> Host fitness challenges to
+            engage clients and motivate them to reach their goals.
+            Exercise.com’s platform enables you to track challenge progress,
+            communicate updates, and provide leaderboard rankings.
           </li>
           <li className="my-2">
-            Workout Programs: Develop and sell workout programs tailored to
-            specific fitness goals, such as muscle building or fat loss.
-            Exercise.com’s platform allows you to create and deliver digital
-            workout programs to clients.
+            <strong> Workout Programs:</strong> Develop and sell workout
+            programs tailored to specific fitness goals, such as muscle building
+            or fat loss. Exercise.com’s platform allows you to create and
+            deliver digital workout programs to clients.
           </li>
           <li className="my-2">
-            Nutrition Services: Offer nutrition counseling, meal planning, or
-            dietary guidance to complement clients’ fitness journeys.
-            Exercise.com’s platform supports the sale and delivery of nutrition
-            services.
+            <strong>Nutrition Services:</strong> Offer nutrition counseling,
+            meal planning, or dietary guidance to complement clients’ fitness
+            journeys. Exercise.com’s platform supports the sale and delivery of
+            nutrition services.
           </li>
           <li className="my-2">
-            Online Membership Programs: Create exclusive online membership
-            programs where clients can access specialized content, workouts, and
-            nutrition advice. Exercise.com’s custom branded fitness apps
-            facilitate membership management and content delivery.
+            <strong>Online Membership Programs:</strong> Create exclusive online
+            membership programs where clients can access specialized content,
+            workouts, and nutrition advice. Exercise.com’s custom branded
+            fitness apps facilitate membership management and content delivery.
           </li>
           <li className="my-2">
-            Sports-Specific Training: Provide specialized training programs for
-            athletes or individuals interested in sports-specific fitness.
-            Exercise.com’s platform helps you design and track progress in these
-            tailored programs.
+            <strong>Sports-Specific Training:</strong> Provide specialized
+            training programs for athletes or individuals interested in
+            sports-specific fitness. Exercise.com’s platform helps you design
+            and track progress in these tailored programs.
           </li>
           <li className="my-2">
-            Online Workshops and Courses: Develop and sell online workshops or
-            courses on fitness-related topics like exercise fundamentals or
-            nutrition education. Exercise.com’s platform supports the creation
-            and delivery of educational content.
+            <strong>Online Workshops and Courses:</strong> Develop and sell
+            online workshops or courses on fitness-related topics like exercise
+            fundamentals or nutrition education. Exercise.com’s platform
+            supports the creation and delivery of educational content.
           </li>
           <li className="my-2">
-            Corporate Wellness Programs: Collaborate with local businesses to
-            offer wellness programs and fitness services to their employees.
-            Exercise.com’s platform assists in managing corporate memberships,
-            scheduling classes, and tracking participation.
+            <strong>Corporate Wellness Programs:</strong> Collaborate with local
+            businesses to offer wellness programs and fitness services to their
+            employees. Exercise.com’s platform assists in managing corporate
+            memberships, scheduling classes, and tracking participation.
           </li>
           <li className="my-2">
-            Outdoor Fitness Classes: Conduct fitness classes in local parks or
-            outdoor spaces to cater to clients who prefer outdoor workouts.
-            Exercise.com’s scheduling features help you manage outdoor class
-            sessions and communicate updates to participants.
+            <strong>Outdoor Fitness Classes:</strong> Conduct fitness classes in
+            local parks or outdoor spaces to cater to clients who prefer outdoor
+            workouts. Exercise.com’s scheduling features help you manage outdoor
+            class sessions and communicate updates to participants.
           </li>
           <li className="my-2">
-            Fitness Retreats: Organize wellness retreats or fitness-focused
-            vacations where participants can immerse themselves in a holistic
-            fitness experience. Exercise.com’s platform supports event
-            management and participant communication.
+            <strong>Fitness Retreats:</strong> Organize wellness retreats or
+            fitness-focused vacations where participants can immerse themselves
+            in a holistic fitness experience. Exercise.com’s platform supports
+            event management and participant communication.
           </li>
           <li className="my-2">
-            Athletic Performance Training: Provide training programs for
-            athletes seeking to enhance their performance in specific sports.
-            Exercise.com’s platform helps you design and track progress in these
-            specialized training programs.
+            <strong>Athletic Performance Training:</strong> Provide training
+            programs for athletes seeking to enhance their performance in
+            specific sports. Exercise.com’s platform helps you design and track
+            progress in these specialized training programs.
           </li>
         </ol>
       </div>
@@ -161,8 +163,8 @@ export default function Service() {
       <div>
         <h1 className="my-2">Top Social Media Gym Posting Mediums</h1>
         <div className="text-center ">
-        <img className=" " src={Imglogo} alt="" />
-      </div>
+          <img className=" " src={Imglogo} alt="" />
+        </div>
         <p className="my-2">
           Social media platforms have progressed into potent instruments for
           inspiration, education, and motivation in the fitness industry. They
@@ -269,9 +271,8 @@ export default function Service() {
         </p>
       </div>
       <div className="text-center">
-      <img className="image " src={Fitness} alt="" />
-      <img className="image " src={Fitness1} alt="" />
-
+        <img className="image " src={Fitness} alt="" />
+        <img className="image " src={Fitness1} alt="" />
       </div>
       <div className="my-2">
         <h1>Gym Blog Post Ideas</h1>
@@ -282,13 +283,13 @@ export default function Service() {
           and workout images. As a gym proprietor, you’ll need a concrete
           Instagram strategy to connect with your audience.
         </p>
-       
+
         <p className="my-2">
-          <strong>Blogs build credibility:</strong>Researching your audience involves
-          understanding their interests, questions, and pain concerns. What is
-          it that they hope to gain knowledge of or perceive from your posts?
-          Gather information on the demographics and behaviors of your followers
-          with the help of tools like Instagram Insights.
+          <strong>Blogs build credibility:</strong>Researching your audience
+          involves understanding their interests, questions, and pain concerns.
+          What is it that they hope to gain knowledge of or perceive from your
+          posts? Gather information on the demographics and behaviors of your
+          followers with the help of tools like Instagram Insights.
         </p>
         <p className="my-2">
           <strong>Increased Reach: </strong>hare your gym topics knowledge by
@@ -299,14 +300,14 @@ export default function Service() {
           clip.
         </p>
         <p className="my-2">
-          <strong>Marketing and Promotion:  </strong> Keep up with the latest fitness
-          trends and discussions by reading up on the relevant topics.
+          <strong>Marketing and Promotion: </strong> Keep up with the latest
+          fitness trends and discussions by reading up on the relevant topics.
           Investigate some of the most popular fitness challenges, routines, or
           nutritional trends. You can increase the visibility of your content by
           capitalizing on these trends.
         </p>
         <p className="my-2">
-          <strong>Advantages for SEO:  </strong>Create a fitness challenge or a
+          <strong>Advantages for SEO: </strong>Create a fitness challenge or a
           contest that is linked to your expertize, and then invite people to
           participate. You can encourage them to participate by giving them
           awards or recognizing their efforts. Make use of designated hashtags
@@ -318,8 +319,6 @@ export default function Service() {
           be reliable. You can help your audience make more educated decisions
           by sharing your frank reviews and experiences with them.
         </p>
-        
-        
       </div>
     </div>
   );

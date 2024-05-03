@@ -1,8 +1,9 @@
 import React from 'react';
 // import '../CSS/style.css';
 // import '../CSS/utils.css';
-import Image from '../../assets/Gym.png';
-import Imagedemo from '../../assets/dumble.jpeg';
+import './Home.css';
+import Image from '../../../assets/Gym.png';
+import Imagedemo from '../../../assets/dumble.jpeg';
 
 export default function Home() {
   return (

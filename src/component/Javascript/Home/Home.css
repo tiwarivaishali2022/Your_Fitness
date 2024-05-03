@@ -1,0 +1,18 @@
+
+
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    .topleft, .topright {
+      flex-direction: column;
+    }
+    .gymimg, .dumbellimg {
+      width: 100%;
+    }
+    .boxes {
+      flex-direction: column;
+    }
+    .box {
+      margin-bottom: 20px;
+    }
+    /* Add more styles as needed for different screen sizes */
+  }

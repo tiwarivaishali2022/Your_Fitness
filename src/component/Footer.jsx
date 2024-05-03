@@ -26,7 +26,7 @@ export default function Footer() {
             <a href="#" className="text-reset me-4" aria-label="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="text-reset me-4" aria-label="LinkedIn">
+            <a href="#" className="text-reset me-4" aria-label="Github">
               <i className="fab fa-github"></i>
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/services" className="text-dark text-decoration-none">
+                  <a href="/services" className="text-dark text-decoration-none hover-underline">
                     Services
                   </a>
                 </li>
